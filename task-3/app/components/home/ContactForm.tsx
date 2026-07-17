@@ -15,7 +15,7 @@ const ContactForm = () => {
     message: ""
   });
 
-  const WHATSAPP_NUMBER = "923034002782";
+  const WHATSAPP_NUMBER = "+923034002782";
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Hello%20Fahad,%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect%20with%20you!`;
 
   const handleSubmit = (e: React.FormEvent) => {
